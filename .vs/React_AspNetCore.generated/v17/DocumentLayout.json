@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CANECHIA\\Desktop\\Estudo Front\\React_AspNetCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1AB217A7-F961-418F-B147-DDD2AB54EE1C}|back\\src\\ProAtividade.API\\ProAtividade.API.csproj|c:\\users\\canechia\\desktop\\estudo front\\react_aspnetcore\\back\\src\\proatividade.api\\proatividade.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1AB217A7-F961-418F-B147-DDD2AB54EE1C}|back\\src\\ProAtividade.API\\ProAtividade.API.csproj|solutionrelative:back\\src\\proatividade.api\\proatividade.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProAtividade.API",
+              "DocumentMoniker": "C:\\Users\\CANECHIA\\Desktop\\Estudo Front\\React_AspNetCore\\back\\src\\ProAtividade.API\\ProAtividade.API.csproj",
+              "RelativeDocumentMoniker": "back\\src\\ProAtividade.API\\ProAtividade.API.csproj",
+              "ToolTip": "C:\\Users\\CANECHIA\\Desktop\\Estudo Front\\React_AspNetCore\\back\\src\\ProAtividade.API\\ProAtividade.API.csproj",
+              "RelativeToolTip": "back\\src\\ProAtividade.API\\ProAtividade.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-25T20:57:54.069Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
