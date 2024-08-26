@@ -104,7 +104,6 @@ export default function AtividadeForm(props) {
           type="submit"
           className="btn btn-outline-success me-2"
           onClick={props.handleAtividadeModal}
-          type="submit"
         >
           <i className="me-2">
             <FontAwesomeIcon icon={faSquarePlus} />
@@ -117,7 +116,6 @@ export default function AtividadeForm(props) {
               type="submit"
               className="btn btn-outline-success me-2"
               onClick={props.handleAtividadeModal}
-              type="submit"
             >
               <i className="me-2">
                 <FontAwesomeIcon icon={faSquarePlus} />
