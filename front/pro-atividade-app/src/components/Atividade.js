@@ -11,11 +11,11 @@ export default function Atividades(props) {
   function borderByPriority(prioridade) {
     if (prioridade) {
       switch (prioridade) {
-        case "1":
+        case "Baixa":
           return "card mb-2 shadow-sm border border-primary";
-        case "2":
+        case "Normal":
           return "card mb-2 shadow-sm border border-secondary";
-        case "3":
+        case "Alta":
           return "card mb-2 shadow-sm border border-warning";
         default:
           return "card mb-2 shadow-sm";
@@ -26,11 +26,11 @@ export default function Atividades(props) {
   function colorByPriority(prioridade) {
     if (prioridade) {
       switch (prioridade) {
-        case "1":
+        case "Baixa":
           return "ms-1 text-primary";
-        case "2":
+        case "Normal":
           return "ms-1 text-secondary";
-        case "3":
+        case "Alta":
           return "ms-1 text-warning";
         default:
           return "";
@@ -40,11 +40,11 @@ export default function Atividades(props) {
 
   function prioridadeIcon(param) {
     switch (param) {
-      case "1":
+      case "Baixa":
         return faSmile;
-      case "2":
+      case "Normal":
         return faMeh;
-      case "3":
+      case "Alta":
         return faFrown;
       default:
         return faQuestionCircle;
@@ -53,12 +53,10 @@ export default function Atividades(props) {
 
   function prioridadeLabel(param) {
     switch (param) {
-      case "1":
-        return "Baixa";
-      case "2":
-        return "Normal";
-      case "3":
-        return "Alta";
+      case "Baixa":
+      case "Normal":
+      case "Alta":
+        return param;
       default:
         return "Indefinida";
     }
@@ -98,7 +96,7 @@ export default function Atividades(props) {
             <FontAwesomeIcon icon={faEdit} />
           </button>
           <button
-            onClick={() => props.deleteActivity(props.ativ.id)}
+            onClick={() => props.handleConfirmModal(props.ativ.id)}
             className="btn btn-sm btn-outline-danger"
           >
             <FontAwesomeIcon icon={faTrashAlt} />
