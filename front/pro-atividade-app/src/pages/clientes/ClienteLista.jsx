@@ -5,7 +5,7 @@ import { faPlus, faUserTimes } from "@fortawesome/free-solid-svg-icons";
 import { faUserEdit } from "@fortawesome/free-solid-svg-icons";
 import { InputGroup, Form, Button } from "react-bootstrap";
 import { useState } from "react";
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const clientes = [
   {
@@ -46,7 +46,7 @@ const clientes = [
 ];
 
 export default function ClienteLista() {
-  const history = useHistory();
+  const navigate = useNavigate();
   const [termoBusca, setTermoBusca] = useState("");
 
   const handleInput = (e) => {
@@ -60,7 +60,7 @@ export default function ClienteLista() {
   })
 
   const novoCliente = () => {
-    history.push('/Clientes/detalhe');
+    navigate('/Clientes/detalhe');
   }
 
   return (
@@ -98,7 +98,7 @@ export default function ClienteLista() {
               <td>{cliente.contato}</td>
               <td>{cliente.situacao}</td>
               <td>
-                <button className="btn btn-sm btn-outline-primary me-2" onClick={() => history.push(`/Clientes/detalhe/${cliente.id}`)}>
+                <button className="btn btn-sm btn-outline-primary me-2" onClick={() => navigate(`/Clientes/detalhe/${cliente.id}`)}>
                   <FontAwesomeIcon icon={faUserEdit} className="me-2"/>
                   Editar
                 </button>
