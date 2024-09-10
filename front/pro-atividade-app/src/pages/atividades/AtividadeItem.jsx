@@ -7,7 +7,7 @@ import { faMeh } from "@fortawesome/free-regular-svg-icons";
 import { faFrown } from "@fortawesome/free-regular-svg-icons";
 import { faQuestionCircle } from "@fortawesome/free-regular-svg-icons";
 
-export default function Atividades(props) {
+export default function AtividadeItem(props) {
   function borderByPriority(prioridade) {
     if (prioridade) {
       switch (prioridade) {
